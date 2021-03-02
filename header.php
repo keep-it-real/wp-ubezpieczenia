@@ -15,10 +15,10 @@
 <body>
     <header>  
         <div class="hamburgerMenu">
-			<div class="hamburger top"></div>
-			<div class="hamburger"></div>
-			<div class="hamburger bottom"></div>
-		</div>
+	    <div class="hamburger top"></div>
+	    <div class="hamburger"></div>
+	    <div class="hamburger bottom"></div>
+	</div>
         <nav>
             <a href="#" class="logo">
                 <div class="leaf">
