@@ -4,9 +4,9 @@ Author: Dorota Kargul
 */
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -104,10 +104,10 @@ header section {
 
 .overlay {
     position: absolute;
-	width: 100%;
-	height: 35.4%; /*~259px*/
-	background-color: #1c3e95;
-	opacity: 0.75;
+    width: 100%;
+    height: 35.4%; /*~259px*/
+    background-color: #1c3e95;
+    opacity: 0.75;
 }
 
 .container {
@@ -192,8 +192,8 @@ form div {
 }
 
 #rules {
-  margin-right: 14px;
-  border: 1px solid #979494;
+    margin-right: 14px;
+    border: 1px solid #979494;
 }
 
 label {
@@ -226,7 +226,6 @@ label {
 }
 
 main {
-    background-color: burlywood;
     width: 100%;
     background: url(images/shutterstock_373266265.png) no-repeat right bottom;
 }
@@ -331,62 +330,62 @@ footer .phone {
         margin-left: 40px;
     }
 
-	nav ul {
-		display: flex;
+    nav ul {
+	display: flex;
         justify-content: center;
-		align-items: center;
-		flex-flow: column nowrap;
-		width: 100%;
-		height: 100vh;
-		background-color: #fff;
-		position: fixed;
-		top: -200vh;
-		visibility: hidden;
-		z-index: 2;
-	}
+	align-items: center;
+	flex-flow: column nowrap;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	position: fixed;
+	top: -200vh;
+	visibility: hidden;
+	z-index: 2;
+    }
 	
-	nav ul li {
-		margin: 20px;
-	}
+    nav ul li {
+	margin: 20px;
+    }
 	
-	nav ul.open {
-		top: 0;
-		visibility: visible;
-	}
+    nav ul.open {
+	top: 0;
+	visibility: visible;
+    }
 	
-	.hamburgerMenu {
-		position: absolute;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		top: 42px;
-		right: 40px;
-		width: 40px;
-		height: 30px;
-		cursor: pointer;
-		z-index: 5;
-	}
+    .hamburgerMenu {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	top: 42px;
+	right: 40px;
+	width: 40px;
+	height: 30px;
+	cursor: pointer;
+	z-index: 5;
+    }
 
-	.hamburger {
-		width: 100%;
-		height: 4px;
-		background: #fe7a22;
-		border-radius: 1px;
+    .hamburger {
+	width: 100%;
+	height: 4px;
+	background: #fe7a22;
+	border-radius: 1px;
         transition: all .4s ease;
         transform-origin: 0 0;
-	}
+    }
 
-	.open .hamburger.top {
-		transform: rotate(45deg) translate(2px, -5px);
-	}
+    .open .hamburger.top {
+	transform: rotate(45deg) translate(2px, -5px);
+    }
 
     .open .hamburger {
         transform: scaleX(0);
     }
 
-	.open .hamburger.bottom {
-		transform: rotate(-45deg) translate(1px, 1px);
-	}
+    .open .hamburger.bottom {
+	transform: rotate(-45deg) translate(1px, 1px);
+    }
 
     .container {
         flex-wrap: wrap-reverse;
