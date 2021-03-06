@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubezpieczenia</title>
-    <link rel="stylesheet" href="https://use.typekit.net/xwu8kes.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-    <link href="<?php echo get_bloginfo('template_directory') ?>/style.css" /> 
-    <script src="<?php echo get_template_directory_uri() ?>/js/javascript.js"></script>
     <?php wp_head() ?>
 </head>
 <body>
