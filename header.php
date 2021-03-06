@@ -40,7 +40,7 @@
                     <p>Skontaktuj się z nami i skorzystaj<br> ze specjalnej oferty!</p>
                 </div>
                 <form>
-                    <h4>Podaj daje kontaktowe, a my przygotujemy najlepszą ofertę</h4>
+                    <h4>Podaj dane kontaktowe, a my przygotujemy najlepszą ofertę</h4>
                     <input type="text" placeholder="Imię i nazwisko" id="name" name="name"><br>
                     <input type="email" placeholder="Adres e-mail" id="email" name="email"><br>
                     <input type="tel" placeholder="Nr telefonu" id="phone" name="phone"><br>
